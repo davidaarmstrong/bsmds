@@ -1,0 +1,12 @@
+Package: bsmds
+Type: Package
+Title: Bootstrap Confidence Regions for Multidimensional Scaling Solutions
+Version: 0.1-3
+Date: 2017-12-21
+Author: Dave Armstrong and William Jacoby
+Maintainer: Dave Armstrong <davearmstrong.ps@gmail.com>
+Description: Bootstrap confidence regions along with a plotting method that will plot parametric (normal theory) regions with ellipses or non-parametric regions with a convex hull.
+License: GPL-2
+LazyLoad: yes
+Depends: boot, smacof (>= 1.4-0), 
+Imports: ellipse, lattice, maptools, ICS

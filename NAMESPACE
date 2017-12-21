@@ -1,0 +1,14 @@
+import(boot)
+import(smacof)
+import(lattice)
+import(maptools)
+import(ICS)
+importFrom(ellipse, ellipse)
+
+export(
+   bsmds, 
+   bsfun, 
+   mvnplot,
+   makedist)
+   
+S3method(plot, bsmds)
